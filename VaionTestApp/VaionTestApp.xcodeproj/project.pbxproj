@@ -12,11 +12,23 @@
 		E4258657240D097D004FE44B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E4258655240D097D004FE44B /* Main.storyboard */; };
 		E4258659240D097E004FE44B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E4258658240D097E004FE44B /* Assets.xcassets */; };
 		E425865C240D097E004FE44B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E425865A240D097E004FE44B /* LaunchScreen.storyboard */; };
-		E4258667240D097E004FE44B /* VaionTestAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4258666240D097E004FE44B /* VaionTestAppTests.swift */; };
-		E4258672240D097E004FE44B /* VaionTestAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4258671240D097E004FE44B /* VaionTestAppUITests.swift */; };
 		E4258688240D0CC8004FE44B /* AddServerInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4258687240D0CC8004FE44B /* AddServerInteractor.swift */; };
 		E425868A240D0CDC004FE44B /* AddServerPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4258689240D0CDC004FE44B /* AddServerPresenter.swift */; };
 		E425868D240D107D004FE44B /* Networking.swift in Sources */ = {isa = PBXBuildFile; fileRef = E425868C240D107D004FE44B /* Networking.swift */; };
+		E4258692240D15B5004FE44B /* Router.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4258691240D15B5004FE44B /* Router.swift */; };
+		E4258694240D16E5004FE44B /* ModuleFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4258693240D16E5004FE44B /* ModuleFactory.swift */; };
+		E4258696240D1793004FE44B /* Route.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4258695240D1793004FE44B /* Route.swift */; };
+		E4258699240D1DB9004FE44B /* AuthenticationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4258698240D1DB9004FE44B /* AuthenticationViewController.swift */; };
+		E425869B240D23EC004FE44B /* AddServerModuleError.swift in Sources */ = {isa = PBXBuildFile; fileRef = E425869A240D23EC004FE44B /* AddServerModuleError.swift */; };
+		E425869E240D52D0004FE44B /* ActivitiyIndicatable.swift in Sources */ = {isa = PBXBuildFile; fileRef = E425869D240D52D0004FE44B /* ActivitiyIndicatable.swift */; };
+		E42586A0240D53FA004FE44B /* AlertPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = E425869F240D53FA004FE44B /* AlertPresenter.swift */; };
+		E42586A2240D54D7004FE44B /* AddServerInteractorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E42586A1240D54D7004FE44B /* AddServerInteractorTests.swift */; };
+		E42586A8240D557D004FE44B /* MockAddServerInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = E42586A7240D557D004FE44B /* MockAddServerInteractor.swift */; };
+		E42586AA240D5945004FE44B /* MockNetworking.swift in Sources */ = {isa = PBXBuildFile; fileRef = E42586A9240D5945004FE44B /* MockNetworking.swift */; };
+		E42586AC240D5ABE004FE44B /* MockViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E42586AB240D5ABE004FE44B /* MockViewController.swift */; };
+		E42586AD240D5E9F004FE44B /* MockAddServerPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = E42586A5240D5513004FE44B /* MockAddServerPresenter.swift */; };
+		E42586B0240D6015004FE44B /* VaionTestAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E42586AF240D6015004FE44B /* VaionTestAppUITests.swift */; };
+		E44A4338240D624A00A02082 /* AddServerPresenterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E44A4337240D624A00A02082 /* AddServerPresenterTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,14 +57,26 @@
 		E425865B240D097E004FE44B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E425865D240D097E004FE44B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E4258662240D097E004FE44B /* VaionTestAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VaionTestAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		E4258666240D097E004FE44B /* VaionTestAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VaionTestAppTests.swift; sourceTree = "<group>"; };
 		E4258668240D097E004FE44B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E425866D240D097E004FE44B /* VaionTestAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VaionTestAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		E4258671240D097E004FE44B /* VaionTestAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VaionTestAppUITests.swift; sourceTree = "<group>"; };
 		E4258673240D097E004FE44B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E4258687240D0CC8004FE44B /* AddServerInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddServerInteractor.swift; sourceTree = "<group>"; };
 		E4258689240D0CDC004FE44B /* AddServerPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddServerPresenter.swift; sourceTree = "<group>"; };
 		E425868C240D107D004FE44B /* Networking.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Networking.swift; sourceTree = "<group>"; };
+		E4258691240D15B5004FE44B /* Router.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Router.swift; sourceTree = "<group>"; };
+		E4258693240D16E5004FE44B /* ModuleFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModuleFactory.swift; sourceTree = "<group>"; };
+		E4258695240D1793004FE44B /* Route.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Route.swift; sourceTree = "<group>"; };
+		E4258698240D1DB9004FE44B /* AuthenticationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthenticationViewController.swift; sourceTree = "<group>"; };
+		E425869A240D23EC004FE44B /* AddServerModuleError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddServerModuleError.swift; sourceTree = "<group>"; };
+		E425869D240D52D0004FE44B /* ActivitiyIndicatable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivitiyIndicatable.swift; sourceTree = "<group>"; };
+		E425869F240D53FA004FE44B /* AlertPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertPresenter.swift; sourceTree = "<group>"; };
+		E42586A1240D54D7004FE44B /* AddServerInteractorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddServerInteractorTests.swift; sourceTree = "<group>"; };
+		E42586A5240D5513004FE44B /* MockAddServerPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockAddServerPresenter.swift; sourceTree = "<group>"; };
+		E42586A7240D557D004FE44B /* MockAddServerInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockAddServerInteractor.swift; sourceTree = "<group>"; };
+		E42586A9240D5945004FE44B /* MockNetworking.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockNetworking.swift; sourceTree = "<group>"; };
+		E42586AB240D5ABE004FE44B /* MockViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockViewController.swift; sourceTree = "<group>"; };
+		E42586AF240D6015004FE44B /* VaionTestAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VaionTestAppUITests.swift; sourceTree = "<group>"; };
+		E44A4337240D624A00A02082 /* AddServerPresenterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddServerPresenterTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,6 +128,7 @@
 			isa = PBXGroup;
 			children = (
 				E425868B240D0D59004FE44B /* Networking */,
+				E4258690240D15A1004FE44B /* Router */,
 				E4258681240D0A27004FE44B /* Features */,
 				E4258680240D0A0C004FE44B /* Resources */,
 				E425867F240D0998004FE44B /* UI */,
@@ -115,7 +140,9 @@
 		E4258665240D097E004FE44B /* VaionTestAppTests */ = {
 			isa = PBXGroup;
 			children = (
-				E4258666240D097E004FE44B /* VaionTestAppTests.swift */,
+				E42586A4240D54F7004FE44B /* Mocks */,
+				E42586A1240D54D7004FE44B /* AddServerInteractorTests.swift */,
+				E44A4337240D624A00A02082 /* AddServerPresenterTests.swift */,
 				E4258668240D097E004FE44B /* Info.plist */,
 			);
 			path = VaionTestAppTests;
@@ -124,8 +151,8 @@
 		E4258670240D097E004FE44B /* VaionTestAppUITests */ = {
 			isa = PBXGroup;
 			children = (
-				E4258671240D097E004FE44B /* VaionTestAppUITests.swift */,
 				E4258673240D097E004FE44B /* Info.plist */,
+				E42586AF240D6015004FE44B /* VaionTestAppUITests.swift */,
 			);
 			path = VaionTestAppUITests;
 			sourceTree = "<group>";
@@ -150,6 +177,8 @@
 		E4258681240D0A27004FE44B /* Features */ = {
 			isa = PBXGroup;
 			children = (
+				E425869C240D437D004FE44B /* Common */,
+				E4258697240D1DA6004FE44B /* Authentication */,
 				E4258682240D0A7C004FE44B /* AddServer */,
 				E425864F240D097D004FE44B /* AppDelegate.swift */,
 			);
@@ -159,6 +188,7 @@
 		E4258682240D0A7C004FE44B /* AddServer */ = {
 			isa = PBXGroup;
 			children = (
+				E425869A240D23EC004FE44B /* AddServerModuleError.swift */,
 				E4258687240D0CC8004FE44B /* AddServerInteractor.swift */,
 				E4258689240D0CDC004FE44B /* AddServerPresenter.swift */,
 				E4258653240D097D004FE44B /* AddServerViewController.swift */,
@@ -172,6 +202,44 @@
 				E425868C240D107D004FE44B /* Networking.swift */,
 			);
 			path = Networking;
+			sourceTree = "<group>";
+		};
+		E4258690240D15A1004FE44B /* Router */ = {
+			isa = PBXGroup;
+			children = (
+				E4258693240D16E5004FE44B /* ModuleFactory.swift */,
+				E4258695240D1793004FE44B /* Route.swift */,
+				E4258691240D15B5004FE44B /* Router.swift */,
+			);
+			path = Router;
+			sourceTree = "<group>";
+		};
+		E4258697240D1DA6004FE44B /* Authentication */ = {
+			isa = PBXGroup;
+			children = (
+				E4258698240D1DB9004FE44B /* AuthenticationViewController.swift */,
+			);
+			path = Authentication;
+			sourceTree = "<group>";
+		};
+		E425869C240D437D004FE44B /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				E425869D240D52D0004FE44B /* ActivitiyIndicatable.swift */,
+				E425869F240D53FA004FE44B /* AlertPresenter.swift */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		E42586A4240D54F7004FE44B /* Mocks */ = {
+			isa = PBXGroup;
+			children = (
+				E42586A5240D5513004FE44B /* MockAddServerPresenter.swift */,
+				E42586A7240D557D004FE44B /* MockAddServerInteractor.swift */,
+				E42586A9240D5945004FE44B /* MockNetworking.swift */,
+				E42586AB240D5ABE004FE44B /* MockViewController.swift */,
+			);
+			path = Mocks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -245,10 +313,12 @@
 					};
 					E4258661240D097E004FE44B = {
 						CreatedOnToolsVersion = 11.3;
+						LastSwiftMigration = 1130;
 						TestTargetID = E425864B240D097D004FE44B;
 					};
 					E425866C240D097E004FE44B = {
 						CreatedOnToolsVersion = 11.3;
+						LastSwiftMigration = 1130;
 						TestTargetID = E425864B240D097D004FE44B;
 					};
 				};
@@ -309,7 +379,14 @@
 				E425868D240D107D004FE44B /* Networking.swift in Sources */,
 				E4258650240D097D004FE44B /* AppDelegate.swift in Sources */,
 				E4258688240D0CC8004FE44B /* AddServerInteractor.swift in Sources */,
+				E425869E240D52D0004FE44B /* ActivitiyIndicatable.swift in Sources */,
+				E4258699240D1DB9004FE44B /* AuthenticationViewController.swift in Sources */,
+				E425869B240D23EC004FE44B /* AddServerModuleError.swift in Sources */,
+				E4258692240D15B5004FE44B /* Router.swift in Sources */,
+				E4258696240D1793004FE44B /* Route.swift in Sources */,
 				E425868A240D0CDC004FE44B /* AddServerPresenter.swift in Sources */,
+				E4258694240D16E5004FE44B /* ModuleFactory.swift in Sources */,
+				E42586A0240D53FA004FE44B /* AlertPresenter.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -317,7 +394,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E4258667240D097E004FE44B /* VaionTestAppTests.swift in Sources */,
+				E42586AC240D5ABE004FE44B /* MockViewController.swift in Sources */,
+				E42586A2240D54D7004FE44B /* AddServerInteractorTests.swift in Sources */,
+				E42586AD240D5E9F004FE44B /* MockAddServerPresenter.swift in Sources */,
+				E44A4338240D624A00A02082 /* AddServerPresenterTests.swift in Sources */,
+				E42586AA240D5945004FE44B /* MockNetworking.swift in Sources */,
+				E42586A8240D557D004FE44B /* MockAddServerInteractor.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -325,7 +407,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E4258672240D097E004FE44B /* VaionTestAppUITests.swift in Sources */,
+				E42586B0240D6015004FE44B /* VaionTestAppUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -517,6 +599,7 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = VaionTestAppTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
@@ -527,6 +610,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.cx.VaionTestAppTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VaionTestApp.app/VaionTestApp";
@@ -538,6 +622,7 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = VaionTestAppTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
@@ -558,6 +643,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = VaionTestAppUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -567,6 +653,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.cx.VaionTestAppUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_TARGET_NAME = VaionTestApp;
@@ -577,6 +664,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = VaionTestAppUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
