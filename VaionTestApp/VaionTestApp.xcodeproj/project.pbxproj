@@ -14,6 +14,9 @@
 		E425865C240D097E004FE44B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E425865A240D097E004FE44B /* LaunchScreen.storyboard */; };
 		E4258667240D097E004FE44B /* VaionTestAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4258666240D097E004FE44B /* VaionTestAppTests.swift */; };
 		E4258672240D097E004FE44B /* VaionTestAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4258671240D097E004FE44B /* VaionTestAppUITests.swift */; };
+		E4258688240D0CC8004FE44B /* AddServerInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4258687240D0CC8004FE44B /* AddServerInteractor.swift */; };
+		E425868A240D0CDC004FE44B /* AddServerPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4258689240D0CDC004FE44B /* AddServerPresenter.swift */; };
+		E425868D240D107D004FE44B /* Networking.swift in Sources */ = {isa = PBXBuildFile; fileRef = E425868C240D107D004FE44B /* Networking.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +50,9 @@
 		E425866D240D097E004FE44B /* VaionTestAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VaionTestAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E4258671240D097E004FE44B /* VaionTestAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VaionTestAppUITests.swift; sourceTree = "<group>"; };
 		E4258673240D097E004FE44B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E4258687240D0CC8004FE44B /* AddServerInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddServerInteractor.swift; sourceTree = "<group>"; };
+		E4258689240D0CDC004FE44B /* AddServerPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddServerPresenter.swift; sourceTree = "<group>"; };
+		E425868C240D107D004FE44B /* Networking.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Networking.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +103,7 @@
 		E425864E240D097D004FE44B /* VaionTestApp */ = {
 			isa = PBXGroup;
 			children = (
+				E425868B240D0D59004FE44B /* Networking */,
 				E4258681240D0A27004FE44B /* Features */,
 				E4258680240D0A0C004FE44B /* Resources */,
 				E425867F240D0998004FE44B /* UI */,
@@ -152,9 +159,19 @@
 		E4258682240D0A7C004FE44B /* AddServer */ = {
 			isa = PBXGroup;
 			children = (
+				E4258687240D0CC8004FE44B /* AddServerInteractor.swift */,
+				E4258689240D0CDC004FE44B /* AddServerPresenter.swift */,
 				E4258653240D097D004FE44B /* AddServerViewController.swift */,
 			);
 			path = AddServer;
+			sourceTree = "<group>";
+		};
+		E425868B240D0D59004FE44B /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				E425868C240D107D004FE44B /* Networking.swift */,
+			);
+			path = Networking;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -289,7 +306,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				E4258654240D097D004FE44B /* AddServerViewController.swift in Sources */,
+				E425868D240D107D004FE44B /* Networking.swift in Sources */,
 				E4258650240D097D004FE44B /* AppDelegate.swift in Sources */,
+				E4258688240D0CC8004FE44B /* AddServerInteractor.swift in Sources */,
+				E425868A240D0CDC004FE44B /* AddServerPresenter.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

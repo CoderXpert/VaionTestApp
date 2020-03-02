@@ -8,9 +8,14 @@
 
 import UIKit
 
-class AddServerViewController: UIViewController {
+protocol AddServerViewControllerProtocol {
+    
+}
 
+class AddServerViewController: UIViewController {
+    
     override func viewDidLoad() {
         super.viewDidLoad()
     }
 }
+
