@@ -8,12 +8,10 @@
 
 import UIKit
 
-enum ModuleFactoryError: Error {
-    case routeDoesNotExist
+struct ModuleFactory {
+/// In VIP this will be use to create and setup a module, e.g. creating and setting up AddServer module
 }
 
-// In VIP this will be use to create and setup a module, e.g. creating and setting up
-// AddServer module
-struct ModuleFactory {
-
+enum ModuleFactoryError: Error {
+    case routeDoesNotExist
 }

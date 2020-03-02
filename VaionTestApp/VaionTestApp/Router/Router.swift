@@ -15,7 +15,7 @@ enum PresentationStyle {
 }
 
 struct Router {
-    /// In VIP it can beuse to route from one module to another module.
+    /// Not implemented, but this can be used to route from one module to another
     static func route(to route: Route, presentationStyle: PresentationStyle, navigationController: UINavigationController) throws {
     }
 }
