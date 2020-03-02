@@ -1,0 +1,617 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E4258650240D097D004FE44B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E425864F240D097D004FE44B /* AppDelegate.swift */; };
+		E4258654240D097D004FE44B /* AddServerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4258653240D097D004FE44B /* AddServerViewController.swift */; };
+		E4258657240D097D004FE44B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E4258655240D097D004FE44B /* Main.storyboard */; };
+		E4258659240D097E004FE44B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E4258658240D097E004FE44B /* Assets.xcassets */; };
+		E425865C240D097E004FE44B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E425865A240D097E004FE44B /* LaunchScreen.storyboard */; };
+		E4258667240D097E004FE44B /* VaionTestAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4258666240D097E004FE44B /* VaionTestAppTests.swift */; };
+		E4258672240D097E004FE44B /* VaionTestAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4258671240D097E004FE44B /* VaionTestAppUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E4258663240D097E004FE44B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E4258644240D097D004FE44B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E425864B240D097D004FE44B;
+			remoteInfo = VaionTestApp;
+		};
+		E425866E240D097E004FE44B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E4258644240D097D004FE44B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E425864B240D097D004FE44B;
+			remoteInfo = VaionTestApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E425864C240D097D004FE44B /* VaionTestApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VaionTestApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E425864F240D097D004FE44B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E4258653240D097D004FE44B /* AddServerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddServerViewController.swift; sourceTree = "<group>"; };
+		E4258656240D097D004FE44B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E4258658240D097E004FE44B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E425865B240D097E004FE44B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E425865D240D097E004FE44B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E4258662240D097E004FE44B /* VaionTestAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VaionTestAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E4258666240D097E004FE44B /* VaionTestAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VaionTestAppTests.swift; sourceTree = "<group>"; };
+		E4258668240D097E004FE44B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E425866D240D097E004FE44B /* VaionTestAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VaionTestAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E4258671240D097E004FE44B /* VaionTestAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VaionTestAppUITests.swift; sourceTree = "<group>"; };
+		E4258673240D097E004FE44B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E4258649240D097D004FE44B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E425865F240D097E004FE44B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E425866A240D097E004FE44B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E4258643240D097D004FE44B = {
+			isa = PBXGroup;
+			children = (
+				E425864E240D097D004FE44B /* VaionTestApp */,
+				E4258665240D097E004FE44B /* VaionTestAppTests */,
+				E4258670240D097E004FE44B /* VaionTestAppUITests */,
+				E425864D240D097D004FE44B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E425864D240D097D004FE44B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E425864C240D097D004FE44B /* VaionTestApp.app */,
+				E4258662240D097E004FE44B /* VaionTestAppTests.xctest */,
+				E425866D240D097E004FE44B /* VaionTestAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E425864E240D097D004FE44B /* VaionTestApp */ = {
+			isa = PBXGroup;
+			children = (
+				E4258681240D0A27004FE44B /* Features */,
+				E4258680240D0A0C004FE44B /* Resources */,
+				E425867F240D0998004FE44B /* UI */,
+				E425865D240D097E004FE44B /* Info.plist */,
+			);
+			path = VaionTestApp;
+			sourceTree = "<group>";
+		};
+		E4258665240D097E004FE44B /* VaionTestAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				E4258666240D097E004FE44B /* VaionTestAppTests.swift */,
+				E4258668240D097E004FE44B /* Info.plist */,
+			);
+			path = VaionTestAppTests;
+			sourceTree = "<group>";
+		};
+		E4258670240D097E004FE44B /* VaionTestAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				E4258671240D097E004FE44B /* VaionTestAppUITests.swift */,
+				E4258673240D097E004FE44B /* Info.plist */,
+			);
+			path = VaionTestAppUITests;
+			sourceTree = "<group>";
+		};
+		E425867F240D0998004FE44B /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				E425865A240D097E004FE44B /* LaunchScreen.storyboard */,
+				E4258655240D097D004FE44B /* Main.storyboard */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		E4258680240D0A0C004FE44B /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				E4258658240D097E004FE44B /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		E4258681240D0A27004FE44B /* Features */ = {
+			isa = PBXGroup;
+			children = (
+				E4258682240D0A7C004FE44B /* AddServer */,
+				E425864F240D097D004FE44B /* AppDelegate.swift */,
+			);
+			path = Features;
+			sourceTree = "<group>";
+		};
+		E4258682240D0A7C004FE44B /* AddServer */ = {
+			isa = PBXGroup;
+			children = (
+				E4258653240D097D004FE44B /* AddServerViewController.swift */,
+			);
+			path = AddServer;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E425864B240D097D004FE44B /* VaionTestApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E4258676240D097E004FE44B /* Build configuration list for PBXNativeTarget "VaionTestApp" */;
+			buildPhases = (
+				E4258648240D097D004FE44B /* Sources */,
+				E4258649240D097D004FE44B /* Frameworks */,
+				E425864A240D097D004FE44B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = VaionTestApp;
+			productName = VaionTestApp;
+			productReference = E425864C240D097D004FE44B /* VaionTestApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E4258661240D097E004FE44B /* VaionTestAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E4258679240D097E004FE44B /* Build configuration list for PBXNativeTarget "VaionTestAppTests" */;
+			buildPhases = (
+				E425865E240D097E004FE44B /* Sources */,
+				E425865F240D097E004FE44B /* Frameworks */,
+				E4258660240D097E004FE44B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E4258664240D097E004FE44B /* PBXTargetDependency */,
+			);
+			name = VaionTestAppTests;
+			productName = VaionTestAppTests;
+			productReference = E4258662240D097E004FE44B /* VaionTestAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E425866C240D097E004FE44B /* VaionTestAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E425867C240D097E004FE44B /* Build configuration list for PBXNativeTarget "VaionTestAppUITests" */;
+			buildPhases = (
+				E4258669240D097E004FE44B /* Sources */,
+				E425866A240D097E004FE44B /* Frameworks */,
+				E425866B240D097E004FE44B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E425866F240D097E004FE44B /* PBXTargetDependency */,
+			);
+			name = VaionTestAppUITests;
+			productName = VaionTestAppUITests;
+			productReference = E425866D240D097E004FE44B /* VaionTestAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E4258644240D097D004FE44B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = "Muhammad Aftab";
+				TargetAttributes = {
+					E425864B240D097D004FE44B = {
+						CreatedOnToolsVersion = 11.3;
+					};
+					E4258661240D097E004FE44B = {
+						CreatedOnToolsVersion = 11.3;
+						TestTargetID = E425864B240D097D004FE44B;
+					};
+					E425866C240D097E004FE44B = {
+						CreatedOnToolsVersion = 11.3;
+						TestTargetID = E425864B240D097D004FE44B;
+					};
+				};
+			};
+			buildConfigurationList = E4258647240D097D004FE44B /* Build configuration list for PBXProject "VaionTestApp" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E4258643240D097D004FE44B;
+			productRefGroup = E425864D240D097D004FE44B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E425864B240D097D004FE44B /* VaionTestApp */,
+				E4258661240D097E004FE44B /* VaionTestAppTests */,
+				E425866C240D097E004FE44B /* VaionTestAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E425864A240D097D004FE44B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E425865C240D097E004FE44B /* LaunchScreen.storyboard in Resources */,
+				E4258659240D097E004FE44B /* Assets.xcassets in Resources */,
+				E4258657240D097D004FE44B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E4258660240D097E004FE44B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E425866B240D097E004FE44B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E4258648240D097D004FE44B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E4258654240D097D004FE44B /* AddServerViewController.swift in Sources */,
+				E4258650240D097D004FE44B /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E425865E240D097E004FE44B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E4258667240D097E004FE44B /* VaionTestAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E4258669240D097E004FE44B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E4258672240D097E004FE44B /* VaionTestAppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E4258664240D097E004FE44B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E425864B240D097D004FE44B /* VaionTestApp */;
+			targetProxy = E4258663240D097E004FE44B /* PBXContainerItemProxy */;
+		};
+		E425866F240D097E004FE44B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E425864B240D097D004FE44B /* VaionTestApp */;
+			targetProxy = E425866E240D097E004FE44B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E4258655240D097D004FE44B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E4258656240D097D004FE44B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E425865A240D097E004FE44B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E425865B240D097E004FE44B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E4258674240D097E004FE44B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E4258675240D097E004FE44B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E4258677240D097E004FE44B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = VaionTestApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.cx.VaionTestApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E4258678240D097E004FE44B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = VaionTestApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.cx.VaionTestApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		E425867A240D097E004FE44B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = VaionTestAppTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.cx.VaionTestAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VaionTestApp.app/VaionTestApp";
+			};
+			name = Debug;
+		};
+		E425867B240D097E004FE44B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = VaionTestAppTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.cx.VaionTestAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VaionTestApp.app/VaionTestApp";
+			};
+			name = Release;
+		};
+		E425867D240D097E004FE44B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = VaionTestAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.cx.VaionTestAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = VaionTestApp;
+			};
+			name = Debug;
+		};
+		E425867E240D097E004FE44B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = VaionTestAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.cx.VaionTestAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = VaionTestApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E4258647240D097D004FE44B /* Build configuration list for PBXProject "VaionTestApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E4258674240D097E004FE44B /* Debug */,
+				E4258675240D097E004FE44B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E4258676240D097E004FE44B /* Build configuration list for PBXNativeTarget "VaionTestApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E4258677240D097E004FE44B /* Debug */,
+				E4258678240D097E004FE44B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E4258679240D097E004FE44B /* Build configuration list for PBXNativeTarget "VaionTestAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E425867A240D097E004FE44B /* Debug */,
+				E425867B240D097E004FE44B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E425867C240D097E004FE44B /* Build configuration list for PBXNativeTarget "VaionTestAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E425867D240D097E004FE44B /* Debug */,
+				E425867E240D097E004FE44B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E4258644240D097D004FE44B /* Project object */;
+}
